@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-home.jpg";
+import heroImage from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   const ref = useRef<HTMLDivElement>(null);
