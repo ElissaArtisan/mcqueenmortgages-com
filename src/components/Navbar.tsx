@@ -32,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="font-display text-xl md:text-2xl font-bold tracking-tight text-white">
+        <a href="#home" className="font-display text-xl md:text-2xl font-bold tracking-tight text-charcoal">
           Artisan<span className="text-gold"> Mortgages</span>
         </a>
 
