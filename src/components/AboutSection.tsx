@@ -28,7 +28,7 @@ const AboutSection = () => {
         <div ref={ref} className="opacity-0">
           <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3 text-center">About Us</p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-16 text-center">
-            Meet <span className="gold-gradient-text">Elissa McQueen</span>
+            About <span className="gold-gradient-text">Me</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
