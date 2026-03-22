@@ -29,10 +29,10 @@ const RealtorPartnersSection = () => {
           <div className="max-w-2xl mx-auto text-center mb-16">
             <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Partner With Me</p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6">
-              Realtors, Let's <span className="gold-gradient-text">Work Together</span>
+              Realtors, Let's Help Our <span className="gold-gradient-text">Clients Together</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              Looking for a reliable mortgage broker to help your clients get pre-approved and close faster? I partner with realtors across the Fort McMurray and Wood Buffalo region to provide seamless mortgage solutions for your listings.
+              Buying a home is one of the biggest decisions your clients will make. When we work together as a team, we create a seamless experience — guiding them through the home search and mortgage process hand in hand. I partner with realtors across the Fort McMurray and Wood Buffalo region to ensure every client feels supported from start to finish.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
