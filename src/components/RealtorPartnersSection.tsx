@@ -32,7 +32,7 @@ const RealtorPartnersSection = () => {
               Realtors, Let's <span className="gold-gradient-text">Work Together</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              Whether you're selling homes in Fort McMurray, Edmonton, Canmore, or anywhere across Alberta — I'd love to partner with you. Let's work together to get your clients pre-approved and into their dream homes faster.
+              Whether you're selling homes in Fort McMurray, Edmonton, Red Deer, Canmore, Sylvan Lake, or anywhere across Alberta — I'd love to partner with you. Let's work together to get your clients pre-approved and into their dream homes faster.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
