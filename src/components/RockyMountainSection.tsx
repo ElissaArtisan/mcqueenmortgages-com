@@ -52,7 +52,7 @@ const RockyMountainSection = () => {
             Your Rocky Mountain <span className="gold-gradient-text">Dream Awaits</span>
           </h2>
           <p className="text-charcoal-light text-lg leading-relaxed max-w-3xl mx-auto text-center mb-12">
-            Whether it's a cozy cabin in Canmore, a ski chalet near Banff, or a lakeside retreat in the Rockies — I help Albertans secure financing for their dream vacation properties. From second home mortgages to investment property financing, let's make your mountain getaway a reality.
+            Whether it's a cozy cabin in Canmore or a ski chalet near Banff — I help Albertans secure financing for their dream vacation properties. From second home mortgages to investment property financing, let's make your mountain getaway a reality.
           </p>
 
           {/* Landscape photo */}
