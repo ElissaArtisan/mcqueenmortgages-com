@@ -59,7 +59,7 @@ const RockyMountainSection = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-xl mb-16 border border-gold/10">
             <img
               src={rockyMountainPhoto}
-              alt="Turquoise alpine lake surrounded by snow-capped Rocky Mountain peaks near Canmore and Banff, Alberta"
+              alt="Luxury mountain cabin chalet in Canmore with warm lighting and stunning Rocky Mountain peaks at dusk"
               className="w-full h-64 md:h-96 lg:h-[28rem] object-cover"
               loading="lazy"
             />
