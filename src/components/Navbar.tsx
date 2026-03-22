@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import artisanLogo from "@/assets/artisan-logo.jpg";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
