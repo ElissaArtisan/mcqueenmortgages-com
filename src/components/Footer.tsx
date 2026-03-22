@@ -15,8 +15,8 @@ const Footer = () => (
         <div>
           <h4 className="font-display text-lg font-semibold text-background mb-4">Contact</h4>
           <div className="flex flex-col gap-3 text-sm">
-            <a href="tel:+17805551234" className="flex items-center gap-3 hover:text-gold transition-colors">
-              <Phone size={16} className="text-gold" /> (780) 555-1234
+            <a href="tel:+17053054449" className="flex items-center gap-3 hover:text-gold transition-colors">
+              <Phone size={16} className="text-gold" /> (705) 305-4449
             </a>
             <a href="mailto:hello@artisanmortgages.ca" className="flex items-center gap-3 hover:text-gold transition-colors">
               <Mail size={16} className="text-gold" /> hello@artisanmortgages.ca
