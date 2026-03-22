@@ -51,7 +51,7 @@ const WoodBuffaloSection = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: Heart, title: "Community First", desc: "I believe in giving back. Supporting local families on their path to homeownership strengthens the entire region." },
-              { icon: Trees, title: "Northern Living", desc: "From Thickwood to Timberlea, Abasand to Beacon Hill — I know these neighbourhoods and what makes each one special." },
+              { icon: Trees, title: "Northern Living", desc: "From Thickwood to Timberlea, Abasand to Beacon Hill, Saprae Creek, Draper Road, and Gregoire Lake Estates — I know these neighbourhoods and what makes each one special." },
               { icon: Users, title: "Built on Trust", desc: "Word-of-mouth referrals are the backbone of my business. Your trust means everything, and I work hard to earn it every day." },
             ].map((item, i) => (
               <div
