@@ -9,7 +9,7 @@ const Footer = () => (
             Artisan<span className="text-gold"> Mortgages</span>
           </a>
           <p className="text-sm leading-relaxed text-background/50">
-            Crafting personalized mortgage solutions for Edmonton and area homeowners since day one.
+            Crafting personalized mortgage solutions for Fort McMurray and the Wood Buffalo region.
           </p>
         </div>
         <div>
