@@ -22,7 +22,7 @@ const Footer = () => (
               <Mail size={16} className="text-gold" /> hello@artisanmortgages.ca
             </a>
             <span className="flex items-center gap-3">
-              <MapPin size={16} className="text-gold" /> Edmonton, Alberta, Canada
+              <MapPin size={16} className="text-gold" /> Fort McMurray, Alberta, Canada
             </span>
           </div>
         </div>
