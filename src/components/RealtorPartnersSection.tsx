@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Zap, HeadphonesIcon, Handshake } from "lucide-react";
 
 const benefits = [
-  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your buyers qualified quickly so deals don't fall through. I prioritize speed without sacrificing thoroughness." },
-  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Direct communication and updates throughout the mortgage process. You and your clients always know where things stand." },
-  { icon: Handshake, title: "Co-Marketing Opportunities", desc: "Joint open houses, listing support, and client referral programs to grow both our businesses together." },
+  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your clients pre-approved quickly so they can shop with confidence. A smooth start sets the tone for the entire home-buying journey." },
+  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Your clients deserve clear communication at every step. I keep both you and your buyers informed so nothing falls through the cracks." },
+  { icon: Handshake, title: "Seamless Collaboration", desc: "From first showing to final closing, we work as one team — ensuring your clients feel guided, supported, and taken care of throughout." },
 ];
 
 const RealtorPartnersSection = () => {
