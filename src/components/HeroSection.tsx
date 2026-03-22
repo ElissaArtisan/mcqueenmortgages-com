@@ -24,7 +24,7 @@ const HeroSection = () => {
       </div>
       <div className="container relative z-10 py-32 md:py-40">
         <div ref={ref} className="max-w-2xl opacity-0">
-          <p className="text-gold font-medium tracking-widest uppercase text-sm mb-4">Edmonton's Trusted Mortgage Broker</p>
+          <p className="text-gold font-medium tracking-widest uppercase text-sm mb-4">Your Trusted Alberta Mortgage Broker</p>
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] text-balance mb-6">
             <span className="text-background">Your Dream Home</span>
             <br />
