@@ -16,13 +16,13 @@ const Index = () => (
     <Navbar />
     <HeroSection />
     <AboutSection />
-    <AlbertaAdvantageSection />
-    <WoodBuffaloSection />
-    <RockyMountainSection />
     <ServicesSection />
+    <RealtorPartnersSection />
     <CalculatorSection />
     <TestimonialsSection />
-    <RealtorPartnersSection />
+    <WoodBuffaloSection />
+    <RockyMountainSection />
+    <AlbertaAdvantageSection />
     <ContactSection />
     <Footer />
   </div>
