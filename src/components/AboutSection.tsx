@@ -31,7 +31,7 @@ const AboutSection = () => {
               Meet <span className="gold-gradient-text">Elissa McQueen</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              Elissa McQueen is the founder of Artisan Mortgages and a licensed Alberta mortgage broker based in Fort McMurray — the heart of Canada's Oil Sands. Dedicated to helping families and workers in the region achieve homeownership, she combines deep local market knowledge with access to a wide network of lenders to craft the perfect mortgage solution for every client.
+              Elissa McQueen is a licensed Alberta mortgage broker and proud member of the Artisan Mortgages team. Based in Fort McMurray — the heart of Canada's Oil Sands — she is dedicated to helping families and workers in the region achieve homeownership. With deep local market knowledge and access to a wide network of lenders, Elissa crafts personalized mortgage solutions for every client.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
