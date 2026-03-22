@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Zap, HeadphonesIcon, Handshake } from "lucide-react";
 
 const benefits = [
-  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your clients pre-approved quickly so they can shop with confidence. A smooth start sets the tone for the entire home-buying journey." },
-  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Your clients deserve clear communication at every step. I keep both you and your buyers informed so nothing falls through the cracks." },
-  { icon: Handshake, title: "Seamless Collaboration", desc: "From first showing to final closing, we work as one team — ensuring your clients feel guided, supported, and taken care of throughout." },
+  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your buyers qualified quickly so deals don't fall through. I prioritize speed without sacrificing thoroughness." },
+  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Direct communication and updates throughout the mortgage process. You and your clients always know where things stand." },
+  { icon: Handshake, title: "Co-Marketing Opportunities", desc: "Joint open houses, listing support, and client referral programs to grow both our businesses together." },
 ];
 
 const RealtorPartnersSection = () => {
@@ -29,10 +29,10 @@ const RealtorPartnersSection = () => {
           <div className="max-w-2xl mx-auto text-center mb-16">
             <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Partner With Me</p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6">
-              Realtors, Let's Help Our <span className="gold-gradient-text">Clients Together</span>
+              Realtors, Let's <span className="gold-gradient-text">Work Together</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              Buying a home is one of the biggest decisions your clients will make. When we work together as a team, we create a seamless experience — guiding them through the home search and mortgage process hand in hand. I partner with realtors across the Fort McMurray and Wood Buffalo region to ensure every client feels supported from start to finish.
+              Looking for a reliable mortgage broker to help your clients get pre-approved and close faster? I partner with realtors across the Fort McMurray and Wood Buffalo region to provide seamless mortgage solutions for your listings.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
