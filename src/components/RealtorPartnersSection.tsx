@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Zap, HeadphonesIcon, Handshake } from "lucide-react";
 
 const benefits = [
-  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your buyers qualified quickly so deals don't fall through. I prioritize speed without sacrificing thoroughness." },
-  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Direct communication and updates throughout the mortgage process. You and your clients always know where things stand." },
-  { icon: Handshake, title: "Co-Marketing Opportunities", desc: "Joint open houses, listing support, and client referral programs to grow both our businesses together." },
+  { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your buyers qualified quickly so deals don't fall through — whether they're buying in Fort McMurray, Edmonton, Canmore, or beyond." },
+  { icon: HeadphonesIcon, title: "Dedicated Support", desc: "Direct communication and updates throughout the mortgage process. You and your clients always know where things stand, no matter where in Alberta." },
+  { icon: Handshake, title: "Co-Marketing Opportunities", desc: "Joint open houses, listing support, and client referral programs to grow both our businesses across the province." },
 ];
 
 const RealtorPartnersSection = () => {
@@ -32,7 +32,7 @@ const RealtorPartnersSection = () => {
               Realtors, Let's <span className="gold-gradient-text">Work Together</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              Looking for a reliable mortgage broker to help your clients get pre-approved and close faster? I partner with realtors across the Fort McMurray and Wood Buffalo region to provide seamless mortgage solutions for your listings.
+              Whether you're selling homes in Fort McMurray, Edmonton, Canmore, or anywhere across Alberta — I'd love to partner with you. Let's work together to get your clients pre-approved and into their dream homes faster.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
