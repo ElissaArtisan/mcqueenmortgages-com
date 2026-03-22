@@ -16,9 +16,9 @@ const Index = () => (
     <Navbar />
     <HeroSection />
     <AboutSection />
+    <AlbertaAdvantageSection />
     <WoodBuffaloSection />
     <RockyMountainSection />
-    <AlbertaAdvantageSection />
     <ServicesSection />
     <CalculatorSection />
     <TestimonialsSection />
