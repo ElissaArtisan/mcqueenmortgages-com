@@ -18,8 +18,8 @@ const Footer = () => (
             <a href="tel:+17053054449" className="flex items-center gap-3 hover:text-gold transition-colors">
               <Phone size={16} className="text-gold" /> (705) 305-4449
             </a>
-            <a href="mailto:hello@artisanmortgages.ca" className="flex items-center gap-3 hover:text-gold transition-colors">
-              <Mail size={16} className="text-gold" /> hello@artisanmortgages.ca
+            <a href="mailto:elissa@artisanmortgages.ca" className="flex items-center gap-3 hover:text-gold transition-colors">
+              <Mail size={16} className="text-gold" /> elissa@artisanmortgages.ca
             </a>
             <span className="flex items-center gap-3">
               <MapPin size={16} className="text-gold" /> Fort McMurray, Alberta, Canada
