@@ -31,7 +31,7 @@ const HeroSection = () => {
             <span className="gold-gradient-text">Starts Here</span>
           </h1>
           <p className="text-lg md:text-xl text-background/80 max-w-lg mb-8 leading-relaxed">
-            Personalized mortgage solutions for Fort McMurray and the Oil Sands region. We navigate the complexities so you can focus on finding your perfect home.
+            Personalized mortgage solutions for Fort McMurray, the Oil Sands region, and the entire province of Alberta.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button variant="gold" size="lg" className="text-base px-8 py-6" asChild>
