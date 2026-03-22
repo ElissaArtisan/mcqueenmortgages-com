@@ -29,7 +29,7 @@ const ServicesSection = () => {
       <div className="container">
         <div ref={ref} className="opacity-0">
           <div className="max-w-2xl mx-auto text-center mb-16">
-            <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Our Services</p>
+            <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">My Services</p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6">
               Mortgage Solutions <span className="gold-gradient-text">Tailored to You</span>
             </h2>
