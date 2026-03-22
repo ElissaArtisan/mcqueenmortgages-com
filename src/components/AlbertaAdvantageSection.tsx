@@ -61,7 +61,7 @@ const AlbertaAdvantageSection = () => {
             The Alberta Advantage
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6 text-center">
-            Your Alberta Dream{" "}
+            The Alberta Advantage{" "}
             <span className="gold-gradient-text">Starts Here</span>
           </h2>
           <p className="text-charcoal-light text-lg leading-relaxed max-w-2xl mx-auto text-center mb-16">
