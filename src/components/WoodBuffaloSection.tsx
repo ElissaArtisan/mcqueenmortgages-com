@@ -39,10 +39,10 @@ const WoodBuffaloSection = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8">
               <p className="text-white font-display text-lg md:text-xl font-semibold drop-shadow-lg">
-                The Athabasca River & Boreal Forest
+                Aerial View of Wood Buffalo
               </p>
               <p className="text-white/80 text-sm drop-shadow-md">
-                Wood Buffalo, Alberta
+                Fort McMurray, Alberta
               </p>
             </div>
           </div>
