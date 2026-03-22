@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import artisanLogo from "@/assets/artisan-logo.jpg";
+import artisanLogo from "@/assets/artisan-logo.png";
 
 const Footer = () => (
   <footer className="bg-charcoal text-background/70 py-16">
