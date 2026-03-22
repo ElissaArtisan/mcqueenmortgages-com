@@ -26,7 +26,7 @@ const AboutSection = () => {
     <section id="about" className="py-24 md:py-32 bg-warm-white">
       <div className="container">
         <div ref={ref} className="opacity-0">
-          <p className="text-gold font-medium tracking-widest uppercase text-sm mb-16 text-center">About Me</p>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-16 text-center">About Me</h2>
 
           <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
             {/* Photo */}
