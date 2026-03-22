@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import artisanLogo from "@/assets/artisan-logo.jpg";
+import artisanLogo from "@/assets/artisan-logo.png";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center gap-2 font-display text-xl md:text-2xl font-bold tracking-tight text-charcoal">
-          <img src={artisanLogo} alt="Artisan Mortgages logo" className="h-12 md:h-14 w-auto mix-blend-multiply" />
+          <img src={artisanLogo} alt="Artisan Mortgages logo" className="h-12 md:h-14 w-auto" />
           Artisan<span className="text-gold"> Mortgages</span>
         </a>
 

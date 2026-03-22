@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
-import artisanLogo from "@/assets/artisan-logo.jpg";
+import artisanLogo from "@/assets/artisan-logo.png";
 
 const Footer = () => (
   <footer className="bg-charcoal text-background/70 py-16">
@@ -7,7 +7,7 @@ const Footer = () => (
       <div className="grid md:grid-cols-3 gap-12 mb-12">
         <div>
           <a href="#home" className="flex items-center gap-2 font-display text-2xl font-bold text-background mb-4">
-            <img src={artisanLogo} alt="Artisan Mortgages logo" className="h-12 w-auto brightness-0 invert" />
+            <img src={artisanLogo} alt="Artisan Mortgages logo" className="h-12 w-auto" />
             Artisan<span className="text-gold"> Mortgages</span>
           </a>
           <p className="text-sm leading-relaxed text-background/50">
