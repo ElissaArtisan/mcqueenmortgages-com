@@ -16,8 +16,8 @@ const features = [
   },
   {
     icon: Mountain,
-    title: "Local Knowledge",
-    desc: "With family roots in Canmore, I know the Rocky Mountain real estate market inside and out.",
+    title: "Complex Financing Expertise",
+    desc: "Experienced with complex financing strategies including 1/4 share properties, fractional ownership, and unique vacation property structures in the Rocky Mountain market.",
   },
 ];
 
