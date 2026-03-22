@@ -32,14 +32,14 @@ const WoodBuffaloSection = () => {
           <div className="relative rounded-2xl overflow-hidden shadow-xl mb-12">
             <img
               src={landscapeImg}
-              alt="Aerial view of a residential neighbourhood surrounded by boreal forest — Wood Buffalo region, Fort McMurray, Alberta"
+              alt="Aerial view of downtown Fort McMurray with the Athabasca River flowing through — Wood Buffalo region, Alberta"
               className="w-full h-64 md:h-96 lg:h-[28rem] object-cover"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 md:bottom-8 md:left-8">
               <p className="text-white font-display text-lg md:text-xl font-semibold drop-shadow-lg">
-                Aerial View of Wood Buffalo
+                Downtown Fort McMurray & the Athabasca River
               </p>
               <p className="text-white/80 text-sm drop-shadow-md">
                 Fort McMurray, Alberta
