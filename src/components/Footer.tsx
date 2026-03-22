@@ -39,7 +39,7 @@ const Footer = () => (
       </div>
       <div className="border-t border-background/10 pt-8">
         <p className="text-xs text-background/40 text-center max-w-3xl mx-auto leading-relaxed">
-          Artisan Mortgages is licensed through the Real Estate Council of Alberta (RECA). Mortgage brokering in Alberta is regulated under the Real Estate Act. All mortgage products and rates are subject to qualification and approval. This website is for informational purposes only and does not constitute financial advice.
+          Elissa McQueen is licensed through the Real Estate Council of Alberta (RECA). Mortgage brokering in Alberta is regulated under the Real Estate Act. All mortgage products and rates are subject to qualification and approval. This website is for informational purposes only and does not constitute financial advice.
         </p>
         <p className="text-xs text-background/30 text-center mt-4">
           © {new Date().getFullYear()} Artisan Mortgages. All rights reserved.

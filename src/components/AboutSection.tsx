@@ -28,10 +28,10 @@ const AboutSection = () => {
           <div className="max-w-2xl mx-auto text-center mb-16">
             <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">About Us</p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6">
-              A Personal Approach to <span className="gold-gradient-text">Every Mortgage</span>
+              Meet <span className="gold-gradient-text">Elissa McQueen</span>
             </h2>
             <p className="text-charcoal-light text-lg leading-relaxed">
-              At Artisan Mortgages, we believe every client deserves a tailored experience. Based in Edmonton, we combine local market insight with access to a wide network of lenders to craft the perfect mortgage solution for your unique situation.
+              Elissa McQueen is the founder of Artisan Mortgages and a licensed Alberta mortgage broker based in Fort McMurray — the heart of Canada's Oil Sands. Dedicated to helping families and workers in the region achieve homeownership, she combines deep local market knowledge with access to a wide network of lenders to craft the perfect mortgage solution for every client.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
