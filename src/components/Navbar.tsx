@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="gold" size="lg" asChild>
-            <a href="#contact">Get a Free Consultation</a>
+            <a href="#pre-approval">Get Pre-Approved</a>
           </Button>
         </div>
 
