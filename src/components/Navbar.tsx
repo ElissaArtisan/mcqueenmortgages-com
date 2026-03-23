@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
           ))}
           <Button variant="gold" size="lg" asChild>
-            <a href="#contact">Get a Free Consultation</a>
+            <a href="#pre-approval">Get Pre-Approved</a>
           </Button>
         </div>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="gold" className="mt-2" asChild>
-              <a href="#contact" onClick={() => setMobileOpen(false)}>Get a Free Consultation</a>
+              <a href="#pre-approval" onClick={() => setMobileOpen(false)}>Get Pre-Approved</a>
             </Button>
           </div>
         </div>
