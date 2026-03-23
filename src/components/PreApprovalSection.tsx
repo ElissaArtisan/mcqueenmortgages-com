@@ -47,7 +47,7 @@ const PreApprovalSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Pre-Approval Request Submitted!", description: "Ash will review your details and reach out shortly." });
+    toast({ title: "Pre-Approval Request Submitted!", description: "Elissa will review your details and reach out shortly." });
     setForm({
       firstName: "", lastName: "", email: "", phone: "", cityProvince: "", dob: "",
       employmentStatus: "", employerName: "", jobTitle: "", annualIncome: "", additionalIncome: "",
@@ -238,7 +238,7 @@ const PreApprovalSection = () => {
             </Button>
 
             <p className="text-center text-xs text-muted-foreground leading-relaxed">
-              This is not a formal mortgage application. Ash will review your details and reach out to discuss next steps.
+              This is not a formal mortgage application. Elissa will review your details and reach out to discuss the next steps.
             </p>
           </form>
         </div>
