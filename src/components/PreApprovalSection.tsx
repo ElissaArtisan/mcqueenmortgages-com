@@ -47,7 +47,7 @@ const PreApprovalSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({ title: "Pre-Approval Request Submitted!", description: "Ash will review your details and reach out shortly." });
+    toast({ title: "Pre-Approval Request Submitted!", description: "Elissa will review your details and reach out shortly." });
     setForm({
       firstName: "", lastName: "", email: "", phone: "", cityProvince: "", dob: "",
       employmentStatus: "", employerName: "", jobTitle: "", annualIncome: "", additionalIncome: "",
