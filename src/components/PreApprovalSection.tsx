@@ -238,7 +238,7 @@ const PreApprovalSection = () => {
             </Button>
 
             <p className="text-center text-xs text-muted-foreground leading-relaxed">
-              This is not a formal mortgage application. Ash will review your details and reach out to discuss next steps.
+              This is not a formal mortgage application. Elissa will review your details and reach out to discuss the next steps.
             </p>
           </form>
         </div>
