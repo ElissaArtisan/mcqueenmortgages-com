@@ -16,7 +16,7 @@ const features = [
   },
   {
     icon: Mountain,
-    title: "Complex Financing Expertise",
+    title: "Complex Financing Experience",
     desc: "Experienced with complex financing strategies including 1/4 share properties, fractional ownership, and unique vacation property structures in the Rocky Mountain market.",
   },
 ];
