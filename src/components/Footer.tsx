@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import artisanLogo from "@/assets/artisan-logo.png";
 
 const Footer = () => (
-  <footer className="bg-charcoal text-background/70 py-16">
+  <footer className="bg-black text-background/70 py-16">
     <div className="container">
       <div className="grid md:grid-cols-3 gap-12 mb-12">
         <div>
