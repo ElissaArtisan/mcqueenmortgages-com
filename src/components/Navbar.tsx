@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Calculator", href: "#calculator" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Realtor Partners", href: "#partners" },
+  { label: "Pre-Approval", href: "#pre-approval" },
   { label: "Contact", href: "#contact" },
 ];
 
