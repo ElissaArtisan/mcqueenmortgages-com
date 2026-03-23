@@ -8,6 +8,7 @@ import RockyMountainSection from "@/components/RockyMountainSection";
 import RealtorPartnersSection from "@/components/RealtorPartnersSection";
 import CalculatorSection from "@/components/CalculatorSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import PreApprovalSection from "@/components/PreApprovalSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -23,6 +24,7 @@ const Index = () => (
     <RealtorPartnersSection />
     <CalculatorSection />
     <TestimonialsSection />
+    <PreApprovalSection />
     <ContactSection />
     <Footer />
   </div>
