@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Send, User, Briefcase, Home, ShieldCheck } from "lucide-react";
+import { Send, User } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const PreApprovalSection = () => {
