@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Calculator", href: "#calculator" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Realtor Partners", href: "#partners" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
