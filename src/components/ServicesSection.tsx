@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { Home, RefreshCw, Building2, Briefcase, CreditCard, CheckCircle2 } from "lucide-react";
+import { Home, RefreshCw, Building2, Briefcase, CreditCard, CheckCircle2, Globe } from "lucide-react";
 
 const services = [
   { icon: Home, title: "First-Time Home Buyers", desc: "Navigate your first purchase with confidence. We simplify the process and find programs designed for you." },
@@ -8,6 +8,7 @@ const services = [
   { icon: Briefcase, title: "Self-Employed Mortgages", desc: "Flexible solutions for business owners and self-employed professionals with non-traditional income." },
   { icon: CreditCard, title: "Debt Consolidation", desc: "Simplify your finances by consolidating high-interest debt into a single, manageable mortgage payment." },
   { icon: CheckCircle2, title: "Pre-Approvals", desc: "Shop with confidence. Know exactly what you can afford before you start house hunting." },
+  { icon: Globe, title: "New to Canada", desc: "Special mortgage programs for newcomers. I help immigrants and new residents secure financing to buy their first Canadian home." },
 ];
 
 const ServicesSection = () => {
