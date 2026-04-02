@@ -4,7 +4,7 @@ import elissaPhoto from "@/assets/elissa-headshot.jpg";
 
 const features = [
   { icon: Shield, title: "Trusted Guidance", desc: "I act in your best interest, comparing options against multiple lenders to find your ideal fit." },
-  { icon: MapPin, title: "Local Expertise", desc: "Deep knowledge of Fort McMurray's neighbourhoods and the Oil Sands region's real estate market gives you a competitive edge." },
+  { icon: Cpu, title: "Technology Driven", desc: "Using the most up-to-date technology to simplify and expedite the mortgage process for my clients." },
   { icon: Award, title: "RECA Licensed", desc: "Fully licensed through the Real Estate Council of Alberta, holding ourselves to the highest professional standards." },
 ];
 
