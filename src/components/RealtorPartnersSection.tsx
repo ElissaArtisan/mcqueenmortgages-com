@@ -1,6 +1,7 @@
-import { useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Zap, HeadphonesIcon, Handshake } from "lucide-react";
+import { Zap, HeadphonesIcon, Handshake, Send, X } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const benefits = [
   { icon: Zap, title: "Fast Pre-Approvals", desc: "Get your buyers qualified quickly so deals don't fall through — whether they're buying in Fort McMurray, Edmonton, Red Deer, Canmore, Sylvan Lake, or beyond." },
@@ -10,6 +11,9 @@ const benefits = [
 
 const RealtorPartnersSection = () => {
   const ref = useRef<HTMLDivElement>(null);
+  const { toast } = useToast();
+  const [open, setOpen] = useState(false);
+  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
 
   useEffect(() => {
     const el = ref.current;
@@ -21,6 +25,17 @@ const RealtorPartnersSection = () => {
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    toast({ title: "Partnership Request Sent!", description: "Elissa will be in touch shortly." });
+    setForm({ name: "", email: "", phone: "", message: "" });
+    setOpen(false);
+  };
+
+  const inputClass =
+    "w-full rounded-lg border border-gold/20 bg-background px-4 py-3 text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold transition-all duration-200 placeholder:text-muted-foreground";
+  const labelClass = "block text-sm font-medium text-charcoal mb-1.5";
 
   return (
     <section id="partners" className="py-24 md:py-32 bg-warm-white">
@@ -51,10 +66,85 @@ const RealtorPartnersSection = () => {
             ))}
           </div>
           <div className="text-center">
-            <Button variant="gold" size="lg" className="text-base px-10 py-6" asChild>
-              <a href="#contact">Become a Referral Partner</a>
+            <Button variant="gold" size="lg" className="text-base px-10 py-6" onClick={() => setOpen(true)}>
+              Become a Referral Partner
             </Button>
           </div>
+
+          {/* Modal */}
+          {open && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-charcoal/60 backdrop-blur-sm animate-fade-in" onClick={() => setOpen(false)}>
+              <div
+                className="relative w-full max-w-lg bg-background rounded-2xl p-8 shadow-2xl border border-gold/10 animate-scale-in"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <button
+                  onClick={() => setOpen(false)}
+                  className="absolute top-4 right-4 p-1.5 rounded-full hover:bg-muted transition-colors"
+                  aria-label="Close"
+                >
+                  <X size={20} className="text-charcoal-light" />
+                </button>
+
+                <h3 className="font-display text-2xl font-bold text-charcoal mb-1">Become a Referral Partner</h3>
+                <p className="text-charcoal-light text-sm mb-6">Fill out the form below and I'll reach out to discuss how we can work together.</p>
+
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div>
+                    <label className={labelClass}>Full Name <span className="text-destructive">*</span></label>
+                    <input
+                      type="text"
+                      required
+                      maxLength={100}
+                      className={inputClass}
+                      value={form.name}
+                      onChange={(e) => setForm({ ...form, name: e.target.value })}
+                      placeholder="Your full name"
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Email <span className="text-destructive">*</span></label>
+                    <input
+                      type="email"
+                      required
+                      maxLength={255}
+                      className={inputClass}
+                      value={form.email}
+                      onChange={(e) => setForm({ ...form, email: e.target.value })}
+                      placeholder="you@email.com"
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Phone <span className="text-destructive">*</span></label>
+                    <input
+                      type="tel"
+                      required
+                      maxLength={20}
+                      className={inputClass}
+                      value={form.phone}
+                      onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                      placeholder="(780) 555-0123"
+                    />
+                  </div>
+                  <div>
+                    <label className={labelClass}>Message</label>
+                    <textarea
+                      rows={3}
+                      maxLength={1000}
+                      className={inputClass + " resize-none"}
+                      value={form.message}
+                      onChange={(e) => setForm({ ...form, message: e.target.value })}
+                      placeholder="Tell me about your business and how you'd like to partner..."
+                    />
+                  </div>
+                  <Button variant="gold" type="submit" className="w-full py-5 text-base mt-2">
+                    <Send size={18} className="mr-2" />
+                    Submit Partnership Request
+                  </Button>
+                </form>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
