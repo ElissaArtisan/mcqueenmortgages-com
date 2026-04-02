@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { Shield, MapPin, Award } from "lucide-react";
+import { Shield, Cpu, Award } from "lucide-react";
 import elissaPhoto from "@/assets/elissa-headshot.jpg";
 
 const features = [
