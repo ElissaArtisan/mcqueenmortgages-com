@@ -35,7 +35,7 @@ const ContactSection = () => {
           <div className="max-w-2xl mx-auto text-center mb-16">
             <p className="text-gold font-medium tracking-widest uppercase text-sm mb-3">Get In Touch</p>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal text-balance leading-tight mb-6">
-              Start Your Mortgage Strategy <span className="gold-gradient-text">With Me Now!</span>
+              Start Your Mortgage Strategy <span className="gold-gradient-text">Now!</span>
             </h2>
             <p className="text-charcoal-light text-lg">No obligation. No pressure. Just honest mortgage advice.</p>
           </div>
