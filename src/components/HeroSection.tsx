@@ -42,7 +42,7 @@ const HeroSection = () => {
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold leading-[1.08] text-balance mb-6">
               <span className="text-background">Elissa McQueen,</span>
               <br />
-              <span className="gold-gradient-text">Your Alberta Mortgage Strategist</span>
+              <span className="gold-gradient-text">Your Mortgage Strategist</span>
             </h1>
             <p className="text-lg md:text-xl text-background/80 max-w-lg mb-8 leading-relaxed">
               Personalized mortgage solutions for Fort McMurray, the Oil Sands region, and the entire province of Alberta.
