@@ -91,7 +91,7 @@ const RockyMountainSection = () => {
               onClick={scrollToContact}
               className="gold-gradient text-primary-foreground px-8 py-6 text-base font-semibold rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              Find Out If You Qualify
+              Start Your Dream Here
             </Button>
           </div>
         </div>
