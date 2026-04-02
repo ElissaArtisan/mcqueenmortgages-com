@@ -49,7 +49,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <Button variant="gold" size="lg" className="text-base px-8 py-6" asChild>
-                <a href="#contact">Get Started Today</a>
+                <a href="#contact">Start Now!</a>
               </Button>
               <Button
                 variant="gold-outline"
