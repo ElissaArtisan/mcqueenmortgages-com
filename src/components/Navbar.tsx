@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center gap-2 font-display text-xl md:text-2xl font-bold tracking-tight text-charcoal">
           <img src={artisanLogo} alt="Artisan Mortgages logo" className="h-12 md:h-14 w-auto" />
-          Artisan<span className="text-gold"> Mortgages</span>
+          <span className="text-black font-extrabold">Artisan</span><span className="text-gold font-extrabold"> Mortgages</span>
         </a>
 
         {/* Desktop */}
