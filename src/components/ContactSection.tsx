@@ -62,7 +62,7 @@ const ContactSection = () => {
                   <option value="refinance">Refinancing</option>
                   <option value="investment">Investment Property</option>
                   <option value="self-employed">Self-Employed</option>
-                  <option value="preapproval">Pre-Approval</option>
+                  
                   <option value="other">Other</option>
                 </select>
               </div>
