@@ -12,21 +12,6 @@ const PreApprovalSection = () => {
     lastName: "",
     email: "",
     phone: "",
-    cityProvince: "",
-    dob: "",
-    employmentStatus: "",
-    employerName: "",
-    jobTitle: "",
-    annualIncome: "",
-    additionalIncome: "",
-    purchasePrice: "",
-    downPayment: "",
-    propertyType: "",
-    timeline: "",
-    firstTimeBuyer: "",
-    currentPayment: "",
-    creditScore: "",
-    notes: "",
   });
 
   useEffect(() => {
