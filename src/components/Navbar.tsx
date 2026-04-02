@@ -6,14 +6,10 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
-  { label: "Rocky Mountain", href: "#rocky-mountain" },
-  { label: "Alberta", href: "#alberta" },
   { label: "Services", href: "#services" },
   { label: "Calculator", href: "#calculator" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Realtor Partners", href: "#partners" },
-  { label: "Pre-Approval", href: "#pre-approval" },
-  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
