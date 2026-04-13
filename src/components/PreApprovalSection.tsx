@@ -18,7 +18,7 @@ const PreApprovalSection = () => {
   }, []);
 
   const steps = [
-    { number: "1", text: 'Click the "Start Now" button below.' },
+    { number: "1", text: 'Click the "Book a Consultation" button below.' },
     { number: "2", text: "A new tab will open to create an account with me." },
     { number: "3", text: "Fill out the form!" },
   ];
