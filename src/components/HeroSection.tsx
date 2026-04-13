@@ -7,6 +7,18 @@ import elissaHeadshot from "@/assets/elissa-headshot.jpg";
 const HeroSection = () => {
   const textRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
+  const [pickerOpen, setPickerOpen] = useState(false);
+  const pickerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (pickerRef.current && !pickerRef.current.contains(e.target as Node)) {
+        setPickerOpen(false);
+      }
+    };
+    if (pickerOpen) document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [pickerOpen]);
 
   useEffect(() => {
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
@@ -49,9 +61,41 @@ const HeroSection = () => {
               Personalized mortgage solutions for Fort McMurray, the Oil Sands region, and the entire province of Alberta.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button variant="gold" size="lg" className="text-base px-8 py-6" asChild>
-                <a href="#contact">Book a Consultation</a>
-              </Button>
+              {/* Consultation picker */}
+              <div className="relative" ref={pickerRef}>
+                <Button
+                  variant="gold"
+                  size="lg"
+                  className="text-base px-8 py-6"
+                  onClick={() => setPickerOpen((v) => !v)}
+                >
+                  Book a Consultation
+                  <ChevronDown
+                    className={`ml-1 h-4 w-4 transition-transform duration-200 ${pickerOpen ? "rotate-180" : ""}`}
+                  />
+                </Button>
+
+                {pickerOpen && (
+                  <div className="absolute left-0 top-full mt-2 w-72 sm:w-80 rounded-xl border border-gold/20 bg-charcoal/95 backdrop-blur-lg shadow-2xl shadow-black/40 overflow-hidden animate-fade-in z-50">
+                    <a
+                      href="https://artisanmortgages.zohobookings.ca/#/1780000000945660"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 px-5 py-4 hover:bg-gold/10 transition-colors duration-200 group"
+                      onClick={() => setPickerOpen(false)}
+                    >
+                      <div className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-gold/15 text-gold group-hover:bg-gold/25 transition-colors">
+                        <Phone className="h-4 w-4" />
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-background">Phone Meeting</p>
+                        <p className="text-xs text-background/60 mt-0.5">15 Minute, One-on-one</p>
+                      </div>
+                    </a>
+                  </div>
+                )}
+              </div>
+
               <Button
                 variant="gold-outline"
                 size="lg"
@@ -69,7 +113,6 @@ const HeroSection = () => {
             className="flex justify-center lg:justify-end opacity-0 translate-y-5 transition-all duration-700 ease-out delay-200 [&.animate-in]:opacity-100 [&.animate-in]:translate-y-0"
           >
             <div className="relative w-72 sm:w-80 md:w-96 lg:w-full max-w-md">
-              {/* Decorative gold border offset */}
               <div className="absolute -inset-3 rounded-2xl border-2 border-gold/30 -rotate-2" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-background/10">
                 <img
@@ -77,7 +120,6 @@ const HeroSection = () => {
                   alt="Elissa McQueen — Licensed Alberta Mortgage Broker"
                   className="w-full h-auto object-cover aspect-[3/4]"
                 />
-                {/* Subtle gradient at base for polish */}
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-charcoal/40 to-transparent" />
               </div>
             </div>
