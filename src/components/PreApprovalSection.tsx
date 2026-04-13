@@ -57,7 +57,7 @@ const PreApprovalSection = () => {
 
             <Button variant="gold" size="lg" className="w-full py-6 text-base" asChild>
               <a href="https://r.mtg-app.com/elissamcqueen" target="_blank" rel="noopener noreferrer">
-                Start Now!
+                Book a Consultation
               </a>
             </Button>
           </div>
