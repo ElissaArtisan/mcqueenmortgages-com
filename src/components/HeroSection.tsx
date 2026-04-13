@@ -1,5 +1,6 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Phone, ChevronDown } from "lucide-react";
 import heroImage from "@/assets/hero-home.jpg";
 import elissaHeadshot from "@/assets/elissa-headshot.jpg";
 
