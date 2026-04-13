@@ -18,7 +18,7 @@ const PreApprovalSection = () => {
   }, []);
 
   const steps = [
-    { number: "1", text: 'Click the "Start Now" button below.' },
+    { number: "1", text: 'Click the "Book a Consultation" button below.' },
     { number: "2", text: "A new tab will open to create an account with me." },
     { number: "3", text: "Fill out the form!" },
   ];
@@ -57,7 +57,7 @@ const PreApprovalSection = () => {
 
             <Button variant="gold" size="lg" className="w-full py-6 text-base" asChild>
               <a href="https://r.mtg-app.com/elissamcqueen" target="_blank" rel="noopener noreferrer">
-                Start Now!
+                Book a Consultation
               </a>
             </Button>
           </div>
