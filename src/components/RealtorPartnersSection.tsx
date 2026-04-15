@@ -17,7 +17,7 @@ const RealtorPartnersSection = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const [ohForm, setOhForm] = useState({
     firstName: "", lastName: "", phone: "", email: "",
-    date: "", time: "", address: "",
+    date: "", time: "", address: "", financeSheetOnly: false,
   });
   const [ohPhotos, setOhPhotos] = useState<File[]>([]);
   const [ohPortrait, setOhPortrait] = useState<File | null>(null);
