@@ -51,7 +51,7 @@ const RealtorPartnersSection = () => {
       return;
     }
     toast({ title: "Open House Collab Submitted!", description: "Elissa will review your details and get back to you soon." });
-    setOhForm({ firstName: "", lastName: "", phone: "", email: "", date: "", time: "", address: "" });
+    setOhForm({ firstName: "", lastName: "", phone: "", email: "", date: "", time: "", address: "", financeSheetOnly: false });
     setOhPhotos([]);
     setOhPortrait(null);
     setOpenHouseOpen(false);
