@@ -249,6 +249,17 @@ const RealtorPartnersSection = () => {
                     )}
                   </div>
 
+                  <div className="flex items-center gap-3">
+                    <input
+                      type="checkbox"
+                      id="financeSheetOnly"
+                      checked={ohForm.financeSheetOnly}
+                      onChange={(e) => setOhForm({ ...ohForm, financeSheetOnly: e.target.checked })}
+                      className="w-5 h-5 rounded border-gold/30 text-gold accent-[#C9A84C] cursor-pointer"
+                    />
+                    <label htmlFor="financeSheetOnly" className="text-sm font-medium text-charcoal cursor-pointer select-none">Finance Sheet Only</label>
+                  </div>
+
                   <Button variant="gold" type="submit" className="w-full py-5 text-base mt-2">
                     <Send size={18} className="mr-2" /> Submit Open House Details
                   </Button>
