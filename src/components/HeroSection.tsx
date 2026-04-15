@@ -63,7 +63,7 @@ const HeroSection = () => {
                 className="text-base px-8 py-6 border-background/40 text-background hover:bg-background/10"
                 asChild
               >
-                <a href="https://r.mtg-app.com/elissamcqueen" target="_blank" rel="noopener noreferrer">Get Pre-Approved</a>
+                <a href="#pre-approval">Get Pre-Approved</a>
               </Button>
             </div>
           </div>
