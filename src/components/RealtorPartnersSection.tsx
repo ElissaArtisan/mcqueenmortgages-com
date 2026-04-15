@@ -17,7 +17,7 @@ const RealtorPartnersSection = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
   const [ohForm, setOhForm] = useState({
     firstName: "", lastName: "", phone: "", email: "",
-    date: "", time: "", address: "",
+    date: "", time: "", address: "", financeSheetOnly: false,
   });
   const [ohPhotos, setOhPhotos] = useState<File[]>([]);
   const [ohPortrait, setOhPortrait] = useState<File | null>(null);
@@ -51,7 +51,7 @@ const RealtorPartnersSection = () => {
       return;
     }
     toast({ title: "Open House Collab Submitted!", description: "Elissa will review your details and get back to you soon." });
-    setOhForm({ firstName: "", lastName: "", phone: "", email: "", date: "", time: "", address: "" });
+    setOhForm({ firstName: "", lastName: "", phone: "", email: "", date: "", time: "", address: "", financeSheetOnly: false });
     setOhPhotos([]);
     setOhPortrait(null);
     setOpenHouseOpen(false);
@@ -247,6 +247,17 @@ const RealtorPartnersSection = () => {
                         <input type="file" accept="image/*" className="hidden" onChange={handlePortraitUpload} />
                       </label>
                     )}
+                  </div>
+
+                  <div className="flex items-center gap-3">
+                    <input
+                      type="checkbox"
+                      id="financeSheetOnly"
+                      checked={ohForm.financeSheetOnly}
+                      onChange={(e) => setOhForm({ ...ohForm, financeSheetOnly: e.target.checked })}
+                      className="w-5 h-5 rounded border-gold/30 text-gold accent-[#C9A84C] cursor-pointer"
+                    />
+                    <label htmlFor="financeSheetOnly" className="text-sm font-medium text-charcoal cursor-pointer select-none">Finance Sheet Only</label>
                   </div>
 
                   <Button variant="gold" type="submit" className="w-full py-5 text-base mt-2">
