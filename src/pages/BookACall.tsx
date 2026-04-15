@@ -12,7 +12,7 @@ const BookACall = () => {
     script.onload = () => {
       if ((window as any).Bookings && containerRef.current) {
         (window as any).Bookings.inlineEmbed({
-          url: "https://artisanmortgages.zohobookings.ca/portal-embed#/1780000000945660",
+          url: "https://artisanmortgages.zohobookings.ca/portal-embed#/elissamcqueen",
           parent: "#zoho-inline-container",
           height: "600px",
         });
