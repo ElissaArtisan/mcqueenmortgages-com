@@ -54,7 +54,7 @@ const HeroSection = () => {
                 className="text-base px-8 py-6"
                 asChild
               >
-                <a href="/book-a-call">Book a Consultation</a>
+                <a href="#contact">Contact Elissa</a>
               </Button>
 
               <Button
