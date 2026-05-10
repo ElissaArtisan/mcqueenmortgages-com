@@ -329,7 +329,7 @@ const PreApprovalSection = () => {
                         </Button>
                       </PopoverTrigger>
                       <PopoverContent className="w-auto p-0" align="start">
-                        <Calendar mode="single" selected={dob} onSelect={setDob} disabled={(d) => d > new Date() || d < new Date("1940-01-01")} initialFocus className={cn("p-3 pointer-events-auto")} captionLayout="dropdown-buttons" fromYear={1940} toYear={new Date().getFullYear()} />
+                        <Calendar mode="single" selected={dob} onSelect={setDob} disabled={(d) => d > new Date() || d < new Date("1940-01-01")} initialFocus className={cn("p-3 pointer-events-auto")} />
                       </PopoverContent>
                     </Popover>
                   </div>
@@ -494,7 +494,7 @@ const PreApprovalSection = () => {
                           </Button>
                         </PopoverTrigger>
                         <PopoverContent className="w-auto p-0" align="start">
-                          <Calendar mode="single" selected={coDob} onSelect={setCoDob} disabled={(d) => d > new Date() || d < new Date("1940-01-01")} initialFocus className={cn("p-3 pointer-events-auto")} captionLayout="dropdown-buttons" fromYear={1940} toYear={new Date().getFullYear()} />
+                          <Calendar mode="single" selected={coDob} onSelect={setCoDob} disabled={(d) => d > new Date() || d < new Date("1940-01-01")} initialFocus className={cn("p-3 pointer-events-auto")} />
                         </PopoverContent>
                       </Popover>
                     </div>
