@@ -14,7 +14,117 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      pre_approval_leads: {
+        Row: {
+          additional_income: string | null
+          annual_income: string
+          city_province: string | null
+          co_additional_income: string | null
+          co_annual_income: string | null
+          co_credit_score: string | null
+          co_date_of_birth: string | null
+          co_email: string | null
+          co_employer_name: string | null
+          co_employment_status: string | null
+          co_first_name: string | null
+          co_job_title: string | null
+          co_last_name: string | null
+          co_phone: string | null
+          consent: boolean
+          created_at: string
+          credit_score: string | null
+          current_payment: string | null
+          date_of_birth: string | null
+          down_payment: string | null
+          email: string
+          employer_name: string | null
+          employment_status: string
+          first_name: string
+          first_time_buyer: string | null
+          has_co_applicant: boolean
+          id: string
+          job_title: string | null
+          last_name: string
+          notes: string | null
+          phone: string
+          property_type: string | null
+          purchase_price: string | null
+          timeline: string | null
+        }
+        Insert: {
+          additional_income?: string | null
+          annual_income: string
+          city_province?: string | null
+          co_additional_income?: string | null
+          co_annual_income?: string | null
+          co_credit_score?: string | null
+          co_date_of_birth?: string | null
+          co_email?: string | null
+          co_employer_name?: string | null
+          co_employment_status?: string | null
+          co_first_name?: string | null
+          co_job_title?: string | null
+          co_last_name?: string | null
+          co_phone?: string | null
+          consent?: boolean
+          created_at?: string
+          credit_score?: string | null
+          current_payment?: string | null
+          date_of_birth?: string | null
+          down_payment?: string | null
+          email: string
+          employer_name?: string | null
+          employment_status: string
+          first_name: string
+          first_time_buyer?: string | null
+          has_co_applicant?: boolean
+          id?: string
+          job_title?: string | null
+          last_name: string
+          notes?: string | null
+          phone: string
+          property_type?: string | null
+          purchase_price?: string | null
+          timeline?: string | null
+        }
+        Update: {
+          additional_income?: string | null
+          annual_income?: string
+          city_province?: string | null
+          co_additional_income?: string | null
+          co_annual_income?: string | null
+          co_credit_score?: string | null
+          co_date_of_birth?: string | null
+          co_email?: string | null
+          co_employer_name?: string | null
+          co_employment_status?: string | null
+          co_first_name?: string | null
+          co_job_title?: string | null
+          co_last_name?: string | null
+          co_phone?: string | null
+          consent?: boolean
+          created_at?: string
+          credit_score?: string | null
+          current_payment?: string | null
+          date_of_birth?: string | null
+          down_payment?: string | null
+          email?: string
+          employer_name?: string | null
+          employment_status?: string
+          first_name?: string
+          first_time_buyer?: string | null
+          has_co_applicant?: boolean
+          id?: string
+          job_title?: string | null
+          last_name?: string
+          notes?: string | null
+          phone?: string
+          property_type?: string | null
+          purchase_price?: string | null
+          timeline?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
